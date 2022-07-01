@@ -44,37 +44,43 @@ function  generatePassword() {
   var userSymbols = window.confirm ("would you like any special symbols?");
 
   if (userUpper === true) {
-     choiceArr.push(upper)
+     choiceArr.push(upper);
   }
 
   if (userLower === true) {
-    choiceArr.push(lower)
+    choiceArr.push(lower);
   }
 
   if (userNumbers === true) {
-    choiceArr.push(numbers)
+    choiceArr.push(numbers);
   }
 
   if (userSymbols === true) {
     choiceArr.push(symbols);
   }
 
+  if( choiceArr === 0) {
+    choiceArr.push(symbols);
+  }
+
   
 
-  // create a new blank variable we can start creating random password in
+ 
   
-  // var newPass;
-}
 
+// create a new blank variable we can start creating random password in
+  
 var newPass = "";
 
 function randomItem(choiceArr){
   for (var i = 0; i < passwordLength; i++){
     newPass.push(choiceArr[Math.floor(Math.random() * choiceArr.length)])
   }
-  return newPass;
+  
 }
-console.log(newPass);
+
+return password 
+}
   
 
 
