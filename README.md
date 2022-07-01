@@ -1,9 +1,11 @@
 # Challenge-3
 
+<br>
 
 ## Overview
 In this weeks challange, we had to write a javascript code to have our page generate a random password for the user. This code will give the option to the user to choose on various criterias for the passwords like; length of characters, upper or lower case letters, symbols, and numbers.
 
+<br>
 
 ## Pseudo code 
 
@@ -29,7 +31,10 @@ In this weeks challange, we had to write a javascript code to have our page gene
 // generate random password
 // return the password
 
+<br>
+
 #### Help Resources
 /Youtube videos on array methods, math.random, and for loops.
 //w3schools for arrays, if else
 
+<br>
