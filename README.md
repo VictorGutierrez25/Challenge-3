@@ -30,6 +30,6 @@ In this weeks challange, we had to write a javascript code to have our page gene
 // return the password
 
 #### Help Resources
-/Youtube videos on array methods, math.random, and for loops
+/Youtube videos on array methods, math.random, and for loops.
 //w3schools for arrays, if else
 
